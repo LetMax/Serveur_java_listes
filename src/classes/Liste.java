@@ -1,6 +1,5 @@
 package classes;
 
-import DAOs.Base;
 import DAOs.DAO_Liste;
 
 public class Liste {

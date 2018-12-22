@@ -7,7 +7,7 @@ public class DAO_Connect {
 
     private static Connection connect;
 
-    public Connection testSql2o() {
+    public Connection createConnection() {
 
         if(connect == null) {
             try{
@@ -19,4 +19,6 @@ public class DAO_Connect {
         }
         return connect;
     }
+
+
 }
