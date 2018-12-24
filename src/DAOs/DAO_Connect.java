@@ -19,6 +19,4 @@ public class DAO_Connect {
         }
         return connect;
     }
-
-
 }
